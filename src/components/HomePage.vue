@@ -4,20 +4,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HomePage',
-  props: {
-    title: String,
-  },
-};
-</script>
-
+<script src="./HomePage.js"></script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.home-page {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-</style>
+<style scoped src="./HomePage.css"></style>
