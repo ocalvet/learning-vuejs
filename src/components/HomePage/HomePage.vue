@@ -1,6 +1,7 @@
 <template>
   <div class="home-page">
     <h1>{{ title }}</h1>
+    <TodoForm />
   </div>
 </template>
 
