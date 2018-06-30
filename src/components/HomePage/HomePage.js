@@ -9,5 +9,15 @@ export default {
   components: {
     TodoForm,
     TodoList,
+  },
+  data() {
+    return {
+      todos: []
+    };
+  },
+  methods: {
+    addTodo(todo) {
+      this.todos.push(todo);
+    }
   }
 };

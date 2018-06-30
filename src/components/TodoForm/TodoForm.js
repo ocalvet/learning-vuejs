@@ -9,6 +9,9 @@ export default {
     };
   },
   methods: {
-    addTodo: (todo) => console.log(todo)
+    addTodo(todo) {
+      this.$emit('addTodo', todo);
+      this.todo = { title: '', completed: false };
+    }
   }
 };

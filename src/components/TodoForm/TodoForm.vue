@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" :bind="todo.title"/>
+    <input type="text" v-model="todo.title"/>
     <button @click="addTodo(todo)">Add</button>
   </div>
 </template>
