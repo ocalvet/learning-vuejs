@@ -1,7 +1,7 @@
 <template>
   <div>
     <input type="text" :bind="todo.title"/>
-    <button>Add</button>
+    <button @click="addTodo(todo)">Add</button>
   </div>
 </template>
 

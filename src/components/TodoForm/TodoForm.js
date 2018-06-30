@@ -7,5 +7,8 @@ export default {
         completed: false,
       },
     };
+  },
+  methods: {
+    addTodo: (todo) => console.log(todo)
   }
 };
