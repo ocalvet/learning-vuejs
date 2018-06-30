@@ -1,4 +1,5 @@
 import TodoForm from '../TodoForm/TodoForm.vue';
+import TodoList from '../TodoList/TodoList.vue';
 
 export default {
   name: 'HomePage',
@@ -6,6 +7,7 @@ export default {
     title: String,
   },
   components: {
-    TodoForm
+    TodoForm,
+    TodoList,
   }
 };
