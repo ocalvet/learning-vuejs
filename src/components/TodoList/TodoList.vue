@@ -1,7 +1,9 @@
 <template>
   <div>
     <h4>Todo List</h4>
-    <div class="todo-item" v-for="(todo, i) in todos" :key="i">{{ todo.title }}</div>
+    <div class="todo-item" v-for="(todo, i) in todos" :key="i">
+      <TodoItem :title="todo.title" />
+    </div>
   </div>
 </template>
 
