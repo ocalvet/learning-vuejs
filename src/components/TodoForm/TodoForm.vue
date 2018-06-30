@@ -11,6 +11,7 @@
   padding: 10px 20px;
   background-color: azure;
   margin-bottom: 5px;
+  font-variant: small-caps;
 }
 .todo-item:hover {
   background-color: bisque;

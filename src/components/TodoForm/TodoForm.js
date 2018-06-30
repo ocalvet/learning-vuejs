@@ -1,8 +1,5 @@
 export default {
   name: 'TodoForm',
-  // props: {
-  //   todos: Array,
-  // },
   data: () => {
     return {
       todos: [{
