@@ -10,14 +10,9 @@ export default {
     TodoForm,
     TodoList,
   },
-  data() {
-    return {
-      todos: []
-    };
-  },
-  methods: {
-    addTodo(todo) {
-      this.todos.push(todo);
+  computed: {
+    todos() {
+      return this.$store.state.todos;
     }
   }
 };

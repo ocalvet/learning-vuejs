@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" v-model="todo.title"/>
+    <input type="text" v-model="todo.title" @keyup.enter="addTodo(todo)"/>
     <button @click="addTodo(todo)">Add</button>
   </div>
 </template>

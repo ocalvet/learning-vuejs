@@ -1,7 +1,7 @@
 <template>
   <div class="home-page">
     <h1>{{ title }}</h1>
-    <TodoForm @addTodo="addTodo"/>
+    <TodoForm />
     <TodoList :todos="todos"/>
   </div>
 </template>
