@@ -1,6 +1,16 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <nav>
+    <router-link to="/">
+      <div class="nav-link">Home</div>
+    </router-link>
+    <router-link to="/about">
+      <div class="nav-link">About</div>
+    </router-link>
+    </nav>
+    <main>
+      <router-view></router-view>
+    </main>
     <!-- <HomePage title="Home Page"/> -->
   </div>
 </template>
@@ -18,4 +28,11 @@ export default {
 </script>
 
 <style>
+nav {
+  display: flex;
+  margin-bottom: 35px;
+}
+.nav-link {
+  margin-left: 10px;
+}
 </style>
