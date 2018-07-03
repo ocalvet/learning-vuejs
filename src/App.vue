@@ -46,6 +46,13 @@ nav {
   margin-bottom: 35px;
 }
 .nav-link {
-  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: azure;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+.nav-link:hover {
+  background-color: bisque;
 }
 </style>
