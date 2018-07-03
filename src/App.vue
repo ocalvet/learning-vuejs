@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Welcome to the TODO App</h1>
+    <h1>Welcome to a TODO App build using VueJS</h1>
     <nav>
     <router-link to="/">
       <div class="nav-link">Home</div>
