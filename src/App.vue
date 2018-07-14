@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <h1 class="app-title">Welcome to a TODO App build using VueJS</h1>
+    <md-app>
+      <md-app-toolbar class="md-primary">
+        <span class="md-title">Welcome to a TODO App build using VueJS</span>
+      </md-app-toolbar>
+    </md-app>
     <nav>
     <router-link to="/">
       <div class="nav-link">Home</div>
@@ -17,7 +21,7 @@
 
 <script>
 import HomePage from './components/HomePage/HomePage.vue';
-import router from './router';
+// import router from './router';
 
 export default {
   name: 'app',
@@ -33,7 +37,6 @@ body, * {
   padding: 0;
 }
 #app {
-  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); 
   height: 100vh;
   width: 100vw;
   padding: 15px;

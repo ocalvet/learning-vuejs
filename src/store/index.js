@@ -7,20 +7,20 @@ const state = {
   todos: [],
 };
 const mutations = {
-  addTodo(state, todo) {
-    state.todos.push(todo);
-  }
+  addTodo(s, todo) {
+    s.todos.push(todo);
+  },
 };
 const actions = {};
 const getters = {
-  todos(state) {
-    return state.todos;
-  }
+  todos(s) {
+    return s.todos;
+  },
 };
 
 export default new Vuex.Store({
   state,
   getters,
   actions,
-  mutations
+  mutations,
 });
