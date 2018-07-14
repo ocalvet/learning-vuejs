@@ -39,10 +39,6 @@ body, * {
 #app {
   height: 100vh;
   width: 100vw;
-  padding: 15px;
-}
-.app-title {
-  color: #0000ff;
 }
 nav {
   display: flex;
